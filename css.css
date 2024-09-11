@@ -47,15 +47,70 @@
 body {
     background-color: #faf7f7;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
+.person, .interests {
+    width: 25%;
+    margin: auto;
+}
+
+
+.container img {
+    border-radius: 10%; 
+    box-shadow: 10px 10px 5px gray;
+    width: 50%; 
+    height: auto; 
+}
+
+
+.container-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.video1 video {
+    display: flex;
+    margin: auto
+}
+
+.video2 iframe {
+    display: flex;
+    margin: auto
+}
+
+
+.container-book {
+    display: flex;
+    flex-direction: column
+}
+
+.book1, .book2, .book3 {
+    display: flex;
+    flex-direction: column
+}
+
+.book1 img, .book2 img{
+    margin: auto; 
+    border-radius: 10%
+}
+
+.book1 a, .book2 a {
+    margin: auto; 
+    text-decoration: none;
+    color: red;
+}
 
 p {
     text-align: justify;
     font-size: 1.2rem; 
     font-weight: normal; 
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 
