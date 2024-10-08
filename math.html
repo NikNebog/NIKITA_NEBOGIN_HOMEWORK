@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "./css.css">
-    <title>Index</title>
+    <title>Math</title>
 </head>
 <body>
     <nav class = "navbar open">
@@ -31,31 +31,56 @@
         </div>
     
     </nav>
-    <main class = container>
-        <div class = "person">
-            <p>Name: Lightning.</p>
-            <p>Surname: McQueen.</p>
-            <p>Age: 22 years old.</p>
-            <p>Place of birth: America.</p>
-            <p>Profession: Racer</p>
-        </div>
-        <img src = "./photo/images.webp" width = 600 height = 400 alt = "Photo">
-        <div class = "interests">
-            <p>Interests: races.</p>
-            <p>Hobbies: Drifting.</p>
-            <p>Life views: Liberal.</p>
-            <p>Credo: Cocking.<p>
-        </div>
-        <section>
-            <h2>Essay<h2>
-            <p>Lightning is a professional racer in the Piston Cup racing series, the real prototype is the NASCAR Cup Series. He won 7 cups in 2006-2016. In Cars 2, he participates in the World Grand Prix, an event promoting a new fuel called Allinol. At the end of Wheelbarrows 3, he briefly assumes the role of chief mechanic and mentor to Cruz Ramirez before returning to racing.</p>
-        </section>
+
+    <main class="math">
+        <form>
+            <fieldset>
+            <legend>Calculation</legend>
+            <div class="containers">
+                <div>
+                    <label for="first">First<br>number</label>
+                    <input type="number" id="first" name="first" placeholder="0">
+                </div>
+                <div>
+                    <label for="second">Second<br>number</label>
+                    <input type="number" id="second" name="second" placeholder="0">
+                </div>
+            </div>
+            <div class="butcont">
+                <button id="butplus">+</button>
+                <button id="butminus">-</button>
+                <button id="butmult">*</button>
+                <button id="butdiv">/</button>
+            </div>
+            <p><span id="result">0</span></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Trigonometric Functions</legend>
+                <div class="counters">
+                    <div>
+                        <label for="angle">Angle<br>(in degrees)</label>
+                        <input type="number" id="angle" name="angle" placeholder="0">
+                    </div>
+                </div>
+                <div class="butcont">
+                    <button type="button" id="butsin">sin</button>
+                    <button type="button" id="butcos">cos</button>
+                    <button type="button" id="buttan">tan</button>
+                </div>
+                <p><span id="trigResult">0</span></p>
+            </fieldset>
+        </form>
     </main>
+
+
+
     <footer>
         <a href = "https://www.youtube.com/watch?v=sQ7LLSsF3jk"><img src = "./photo/youtube-1.png" width = 50 height = 40></a>
         <a href = "https://www.facebook.com"><img src = "./photo/145802.png" width = 40 height = 40></a>
         <a href = "https://www.instagram.com"><img src = "./photo/images.jpeg" width = 50 height = 40></a>
     </footer>
     <script src="./js/script.js"></script>
+    
 </body>
 </html>
